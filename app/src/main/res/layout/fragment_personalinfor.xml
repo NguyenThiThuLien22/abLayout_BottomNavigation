@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECEFF1"
+    android:layout_gravity="center"
+    tools:context="com.example.baitapcanhan.fragment.PersonalinforFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/jaldi"
+                android:text="Họ và tên: Nguyễn Thị Thu Liên"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                tools:layout_editor_absoluteX="238dp"
+                tools:layout_editor_absoluteY="190dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/jaldi"
+                    android:text="Mã sinh viên: 22115053122120"
+                    android:textColor="#575454"
+                    android:textSize="18dp"
+                    android:layout_marginEnd="10dp"
+                    tools:layout_editor_absoluteX="243dp"
+                    tools:layout_editor_absoluteY="225dp" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/jaldi"
+                android:text="Lớp: 22T1"
+                android:textColor="#575454"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="243dp"
+                tools:layout_editor_absoluteY="225dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
